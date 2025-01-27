@@ -1,27 +1,43 @@
-<h1>
+<h1 align="center">
     <a href="https://www.dio.me/">
-     <img align="center" width="40px" src="https://hermes.digitalinnovation.one/assets/diome/logo-minimized.png"></a>
-    <span> Profiles README DIO</span>
+        <img width="50px" src="https://hermes.digitalinnovation.one/assets/diome/logo-minimized.png" alt="DIO Logo">
+    </a>
+    Profiles README DIO
 </h1>
 
+<p align="center">
+    Página desenvolvida para fins didáticos no curso <strong>Contribuindo em um Projeto Open Source no GitHub</strong> da <a href="https://www.dio.me/">Digital Innovation One</a>.
+</p>
+
+<p align="center">
+    <a href="https://digitalinnovationone.github.io/dio-lab-open-source/">
+        <img src="https://img.shields.io/badge/Visualizar%20Projeto-000?style=for-the-badge&logo=github&logoColor=30A3DC" alt="Preview do Projeto">
+    </a>
+</p>
+
+---
+
 ## Sobre o Projeto
-Página desenvolvida para fins didáticos para o curso **Contribuindo em um Projeto Open Source no GitHub** da [Digital Innovation One](https://www.dio.me/). Lembre-se de que Markdown é mais voltado para a documentação e apresentação de texto formatado, enquanto a remoção de bugs normalmente envolve a compreensão detalhada do código e o uso de ferramentas de desenvolvimento adequadas à linguagem de programação específica.
+Este repositório foi criado como parte do curso **Contribuindo em um Projeto Open Source no GitHub**, oferecido pela [Digital Innovation One](https://www.dio.me/). Ele apresenta uma estrutura inicial para organizar e documentar projetos utilizando Markdown, HTML, CSS e JavaScript.
 
-[![Preview](https://img.shields.io/badge/Preview-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://digitalinnovationone.github.io/dio-lab-open-source/)
+---
 
-```
+## Funcionalidades
+- 📄 Documentação clara e organizada.
+- 🌐 Página inicial interativa com HTML e CSS.
+- 🛠️ Scripts em JavaScript para funcionalidades dinâmicas.
+- 🎨 Design simples e funcional.
+
+---
+
+## Estrutura do Projeto
+```plaintext
 docs/
-├── assets/
-│   ├── css/
-│   │   └── styles.css
-│   └── js/
-│       └── scripts.js
-├── favicon.ico
-├── index.html
-└── README.md
-```
-
-## Tecnologias
-![HTML](https://img.shields.io/badge/HTML-000?style=for-the-badge&logo=html5&logoColor=30A3DC)
-![CSS](https://img.shields.io/badge/CSS-000?style=for-the-badge&logo=css3&logoColor=E94D5F)
-![JavaScript](https://img.shields.io/badge/JavaScript-000?style=for-the-badge&logo=javascript&logoColor=30A3DC)
+├── assets/            # Arquivos estáticos
+│   ├── css/           # Arquivos de estilos
+│   │   └── styles.css # Estilos principais
+│   └── js/            # Scripts JavaScript
+│       └── scripts.js # Funcionalidades dinâmicas
+├── favicon.ico        # Ícone da página
+├── index.html         # Página inicial
+└── README.md          # Documentação do projeto
